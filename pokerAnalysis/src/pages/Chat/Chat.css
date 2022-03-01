@@ -1,0 +1,61 @@
+.chat-main {
+  padding: 10px;
+  height: 50vh;
+  margin: 1vh 0 3vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-main::-webkit-scrollbar {
+  width: 0.50rem;
+}
+
+.chat-main::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.chat-main::-webkit-scrollbar-thumb {
+  background: #500000;
+}
+
+.chat-form {
+  height: 40px;
+  bottom: 0;
+  width: 100%;
+  max-width: 1000px;
+  font-size: 1.5rem;
+}
+
+.chat-form .chat-button {
+  width: 10%;
+  background-color: #c02448;
+}
+
+.chat-form .stt-button {
+  width: 10%;
+  background-color: #c02448;
+}
+
+
+.message {
+  display: flex;
+  align-items: center;
+}
+
+.sent {
+  flex-direction: row-reverse;
+}
+
+.sent p {
+  color: white;
+  background: #0b93f6;
+  padding: 2px;
+  align-self: flex-end;
+}
+.received p {
+  background: #e5e5ea;
+  color: black;
+  padding: 2px;
+  align-self: flex-end
+}

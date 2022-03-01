@@ -1,0 +1,12 @@
+.poker-div {
+  width: 1280px;
+  height: 720px;
+  margin: 0 auto;
+}
+
+.poker-iframe {
+  width: 1280px;
+  height: 720px;
+  margin: 0 auto;
+  display: block;
+}
